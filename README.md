@@ -37,6 +37,36 @@ See `datasets/README.md` for setup instructions.
 
 ---
 
+
+## Project Structure
+image-super-resolution-gan/
+│
+├── README.md
+├── requirements.txt
+├── train.py
+├── infer.py
+├── models/
+│   ├── generator_rrdb.py
+│   ├── discriminator.py
+│
+├── datasets/
+│   └── README.md
+│
+├── experiments/
+│   ├── psnr_vs_epoch.png
+│   ├── qualitative_results_1.png
+│
+├── notebooks/
+│   └── training.ipynb
+│
+├── checkpoints/
+│   └── best_model.pth (optional)
+│
+└── report/
+    └── final_report.pdf
+
+
+
 ## 🚀 Usage
 
 ### Training
